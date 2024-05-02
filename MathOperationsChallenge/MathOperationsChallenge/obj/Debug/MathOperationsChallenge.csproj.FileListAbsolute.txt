@@ -1,0 +1,7 @@
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\MathOperationsChallenge\MathOperationsChallenge\bin\Debug\MathOperationsChallenge.exe.config
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\MathOperationsChallenge\MathOperationsChallenge\bin\Debug\MathOperationsChallenge.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\MathOperationsChallenge\MathOperationsChallenge\bin\Debug\MathOperationsChallenge.pdb
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\MathOperationsChallenge\MathOperationsChallenge\obj\Debug\MathOperationsChallenge.csproj.AssemblyReference.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\MathOperationsChallenge\MathOperationsChallenge\obj\Debug\MathOperationsChallenge.csproj.CoreCompileInputs.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\MathOperationsChallenge\MathOperationsChallenge\obj\Debug\MathOperationsChallenge.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\MathOperationsChallenge\MathOperationsChallenge\obj\Debug\MathOperationsChallenge.pdb

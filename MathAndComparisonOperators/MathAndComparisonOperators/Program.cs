@@ -35,10 +35,26 @@ namespace MathAndComparisonOperators
             //Console.WriteLine(quotient);
             //Console.ReadLine(); 
 
-            //This is the modules operator. This will result in 0. You can determine if a number is even or odd with the modules operator. 
-            int remainder = 10 % 2;
-            Console.WriteLine(remainder);
-            Console.ReadLine(); 
+            ////This is the modules operator. This will result in 0. You can determine if a number is even or odd with the modules operator. 
+            //int remainder = 10 % 2;
+            //Console.WriteLine(remainder);
+            //Console.ReadLine(); 
+
+            ////This is a true or false operation
+            //bool trueOrFalse = 12 < 5;
+            //Console.WriteLine(trueOrFalse.ToString());
+            //Console.ReadLine();
+
+            //int roomTemperature = 70;
+            //int currentTemperature = 70;
+
+            ////bool isWarm = currentTemperature >= roomTemperature;
+            ////bool isWarm = currentTemperature != roomTemperature;
+            //bool isWarm = currentTemperature == roomTemperature;
+            //Console.WriteLine(isWarm);
+            //Console.ReadLine(); 
+
+
         }
     }
 }

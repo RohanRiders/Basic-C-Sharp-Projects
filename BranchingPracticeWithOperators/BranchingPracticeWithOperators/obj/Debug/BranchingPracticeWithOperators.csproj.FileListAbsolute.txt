@@ -1,0 +1,7 @@
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\BranchingPracticeWithOperators\BranchingPracticeWithOperators\bin\Debug\BranchingPracticeWithOperators.exe.config
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\BranchingPracticeWithOperators\BranchingPracticeWithOperators\bin\Debug\BranchingPracticeWithOperators.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\BranchingPracticeWithOperators\BranchingPracticeWithOperators\bin\Debug\BranchingPracticeWithOperators.pdb
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\BranchingPracticeWithOperators\BranchingPracticeWithOperators\obj\Debug\BranchingPracticeWithOperators.csproj.AssemblyReference.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\BranchingPracticeWithOperators\BranchingPracticeWithOperators\obj\Debug\BranchingPracticeWithOperators.csproj.CoreCompileInputs.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\BranchingPracticeWithOperators\BranchingPracticeWithOperators\obj\Debug\BranchingPracticeWithOperators.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\BranchingPracticeWithOperators\BranchingPracticeWithOperators\obj\Debug\BranchingPracticeWithOperators.pdb

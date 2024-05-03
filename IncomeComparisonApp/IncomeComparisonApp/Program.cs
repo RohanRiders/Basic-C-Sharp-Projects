@@ -62,9 +62,6 @@ namespace IncomeComparisonApp
             Console.WriteLine("Does Person 1 make more money than Person 2: " + whoIsRich);
             Console.ReadLine();
 
-
-
-
         }
     }
 }

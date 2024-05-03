@@ -1,0 +1,7 @@
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\IncomeComparisonApp\IncomeComparisonApp\bin\Debug\IncomeComparisonApp.exe.config
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\IncomeComparisonApp\IncomeComparisonApp\bin\Debug\IncomeComparisonApp.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\IncomeComparisonApp\IncomeComparisonApp\bin\Debug\IncomeComparisonApp.pdb
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\IncomeComparisonApp\IncomeComparisonApp\obj\Debug\IncomeComparisonApp.csproj.AssemblyReference.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\IncomeComparisonApp\IncomeComparisonApp\obj\Debug\IncomeComparisonApp.csproj.CoreCompileInputs.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\IncomeComparisonApp\IncomeComparisonApp\obj\Debug\IncomeComparisonApp.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\IncomeComparisonApp\IncomeComparisonApp\obj\Debug\IncomeComparisonApp.pdb

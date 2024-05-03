@@ -1,0 +1,7 @@
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ShippingQuoteBranchingAssignment\ShippingQuoteBranchingAssignment\bin\Debug\ShippingQuoteBranchingAssignment.exe.config
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ShippingQuoteBranchingAssignment\ShippingQuoteBranchingAssignment\bin\Debug\ShippingQuoteBranchingAssignment.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ShippingQuoteBranchingAssignment\ShippingQuoteBranchingAssignment\bin\Debug\ShippingQuoteBranchingAssignment.pdb
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ShippingQuoteBranchingAssignment\ShippingQuoteBranchingAssignment\obj\Debug\ShippingQuoteBranchingAssignment.csproj.AssemblyReference.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ShippingQuoteBranchingAssignment\ShippingQuoteBranchingAssignment\obj\Debug\ShippingQuoteBranchingAssignment.csproj.CoreCompileInputs.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ShippingQuoteBranchingAssignment\ShippingQuoteBranchingAssignment\obj\Debug\ShippingQuoteBranchingAssignment.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ShippingQuoteBranchingAssignment\ShippingQuoteBranchingAssignment\obj\Debug\ShippingQuoteBranchingAssignment.pdb

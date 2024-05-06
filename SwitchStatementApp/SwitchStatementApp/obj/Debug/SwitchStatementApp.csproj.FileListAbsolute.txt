@@ -1,0 +1,7 @@
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\SwitchStatementApp\SwitchStatementApp\bin\Debug\SwitchStatementApp.exe.config
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\SwitchStatementApp\SwitchStatementApp\bin\Debug\SwitchStatementApp.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\SwitchStatementApp\SwitchStatementApp\bin\Debug\SwitchStatementApp.pdb
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\SwitchStatementApp\SwitchStatementApp\obj\Debug\SwitchStatementApp.csproj.AssemblyReference.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\SwitchStatementApp\SwitchStatementApp\obj\Debug\SwitchStatementApp.csproj.CoreCompileInputs.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\SwitchStatementApp\SwitchStatementApp\obj\Debug\SwitchStatementApp.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\SwitchStatementApp\SwitchStatementApp\obj\Debug\SwitchStatementApp.pdb

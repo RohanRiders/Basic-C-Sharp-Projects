@@ -16,7 +16,7 @@ namespace SwitchStatementApp
             int userInput = Convert.ToInt32(Console.ReadLine());
             bool guessedNumber = userInput == 8;
 
-            do
+            do //This ensures that the while loop is ran through at least once. If not, then if you guessed the correct number on the first try your program would not enter the while loop. it would skip it. 
             {
                 switch (userInput) //Your switch statement does not need to be in sequential order, The case can be any number.
                 {

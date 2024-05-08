@@ -1,0 +1,7 @@
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\StringsConsoleApp\StringsConsoleApp\bin\Debug\StringsConsoleApp.exe.config
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\StringsConsoleApp\StringsConsoleApp\bin\Debug\StringsConsoleApp.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\StringsConsoleApp\StringsConsoleApp\bin\Debug\StringsConsoleApp.pdb
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\StringsConsoleApp\StringsConsoleApp\obj\Debug\StringsConsoleApp.csproj.AssemblyReference.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\StringsConsoleApp\StringsConsoleApp\obj\Debug\StringsConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\StringsConsoleApp\StringsConsoleApp\obj\Debug\StringsConsoleApp.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\StringsConsoleApp\StringsConsoleApp\obj\Debug\StringsConsoleApp.pdb

@@ -48,74 +48,75 @@ namespace ArraysAndLists
             //int index = Convert.ToInt32(Console.ReadLine());
             //Console.WriteLine(myStringArry1[index]);
 
-            //int[] myIntArray = { 1, 2, 3, 4, 5, 6, 7, 8 };
-            //Console.WriteLine("Give me a number in the Array and I'll provide the index of that value.");
-            //int element = Convert.ToInt32(Console.ReadLine());
-            //bool ArrayValue = Convert.ToBoolean(element);
+            int[] myIntArray = { 1, 2, 3, 4, 5, 6, 7, 8 };
+            Console.WriteLine("Give me a number in the Array and I'll provide the index of that value.");
+            int element = Convert.ToInt32(Console.ReadLine());
+            bool ArrayValue = Convert.ToBoolean(element);
 
-            //do
-            //{
-            //    switch (element)
-            //    {
-            //        case 1:
-            //            Console.WriteLine("Here is the value: " + myIntArray[0]);
-            //            Console.WriteLine("Give me another index");
-            //            element = Convert.ToInt32(Console.ReadLine());
-            //            break;
-            //        case 2:
-            //            Console.WriteLine("Here is the value: " + myIntArray[1]);
-            //            Console.WriteLine("Give me another index");
-            //            element = Convert.ToInt32(Console.ReadLine());
-            //            break;
-            //        case 3:
-            //            Console.WriteLine("Here is the value: " + myIntArray[2]);
-            //            Console.WriteLine("Give me another index");
-            //            element = Convert.ToInt32(Console.ReadLine());
-            //            break;
-            //        case 4:
-            //            Console.WriteLine("Here is the value: " + myIntArray[3]);
-            //            Console.WriteLine("Give me another index");
-            //            element = Convert.ToInt32(Console.ReadLine());
-            //            break;
-            //        case 5:
-            //            Console.WriteLine("Here is the value: " + myIntArray[4]);
-            //            Console.WriteLine("Give me another index");
-            //            element = Convert.ToInt32(Console.ReadLine());
-            //            break;
-            //        case 6:
-            //            Console.WriteLine("Here is the value: " + myIntArray[5]);
-            //            Console.WriteLine("Give me another index");
-            //            element = Convert.ToInt32(Console.ReadLine());
-            //            break;
-            //        case 7:
-            //            Console.WriteLine("Here is the value: " + myIntArray[6]);
-            //            Console.WriteLine("Give me another index");
-            //            element = Convert.ToInt32(Console.ReadLine());
-            //            break;
-            //        case 8:
-            //            Console.WriteLine("Here is the value: " + myIntArray[7]);
-            //            Console.WriteLine("Give me another index");
-            //            element = Convert.ToInt32(Console.ReadLine());
-            //            break;
-            //        default:
-            //            Console.WriteLine("The index you gave was out of bounds.");
-            //            break;
-            //    }
-            //} while(ArrayValue);
-            
-            //Console.ReadLine();
+            myIntArray //See if you can use IndexOF() with the list data type instead of the Array. 
+            do
+            {
+                switch (element)
+                {
+                    case 1:
+                        Console.WriteLine("Here is the value: " + myIntArray[0]);
+                        Console.WriteLine("Give me another index");
+                        element = Convert.ToInt32(Console.ReadLine());
+                        break;
+                    case 2:
+                        Console.WriteLine("Here is the value: " + myIntArray[1]);
+                        Console.WriteLine("Give me another index");
+                        element = Convert.ToInt32(Console.ReadLine());
+                        break;
+                    case 3:
+                        Console.WriteLine("Here is the value: " + myIntArray[2]);
+                        Console.WriteLine("Give me another index");
+                        element = Convert.ToInt32(Console.ReadLine());
+                        break;
+                    case 4:
+                        Console.WriteLine("Here is the value: " + myIntArray[3]);
+                        Console.WriteLine("Give me another index");
+                        element = Convert.ToInt32(Console.ReadLine());
+                        break;
+                    case 5:
+                        Console.WriteLine("Here is the value: " + myIntArray[4]);
+                        Console.WriteLine("Give me another index");
+                        element = Convert.ToInt32(Console.ReadLine());
+                        break;
+                    case 6:
+                        Console.WriteLine("Here is the value: " + myIntArray[5]);
+                        Console.WriteLine("Give me another index");
+                        element = Convert.ToInt32(Console.ReadLine());
+                        break;
+                    case 7:
+                        Console.WriteLine("Here is the value: " + myIntArray[6]);
+                        Console.WriteLine("Give me another index");
+                        element = Convert.ToInt32(Console.ReadLine());
+                        break;
+                    case 8:
+                        Console.WriteLine("Here is the value: " + myIntArray[7]);
+                        Console.WriteLine("Give me another index");
+                        element = Convert.ToInt32(Console.ReadLine());
+                        break;
+                    default:
+                        Console.WriteLine("The index you gave was out of bounds.");
+                        break;
+                }
+            } while (ArrayValue);
 
-            List<string> stringList = new List<string>(); //You can create lists of any data type. Arrays are usually used if you have a fixed amount of data. Lists are generally used more often than Arrays. 
-            stringList.Add("Hello");
-            stringList.Add("What");
-            stringList.Add("is");
-            stringList.Add("your");
-            stringList.Add("name?");
-
-            stringList.Remove("is");
-
-            Console.WriteLine(stringList[1]);
             Console.ReadLine();
+
+            //List<string> stringList = new List<string>(); //You can create lists of any data type. Arrays are usually used if you have a fixed amount of data. Lists are generally used more often than Arrays. 
+            //stringList.Add("Hello");
+            //stringList.Add("What");
+            //stringList.Add("is");
+            //stringList.Add("your");
+            //stringList.Add("name?");
+
+            //stringList.Remove("is");
+
+            //Console.WriteLine(stringList[1]);
+            //Console.ReadLine();
         }
     }
 }

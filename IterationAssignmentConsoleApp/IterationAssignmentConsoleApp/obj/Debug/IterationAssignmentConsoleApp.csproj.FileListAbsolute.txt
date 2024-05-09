@@ -1,0 +1,7 @@
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\IterationAssignmentConsoleApp\IterationAssignmentConsoleApp\bin\Debug\IterationAssignmentConsoleApp.exe.config
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\IterationAssignmentConsoleApp\IterationAssignmentConsoleApp\bin\Debug\IterationAssignmentConsoleApp.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\IterationAssignmentConsoleApp\IterationAssignmentConsoleApp\bin\Debug\IterationAssignmentConsoleApp.pdb
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\IterationAssignmentConsoleApp\IterationAssignmentConsoleApp\obj\Debug\IterationAssignmentConsoleApp.csproj.AssemblyReference.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\IterationAssignmentConsoleApp\IterationAssignmentConsoleApp\obj\Debug\IterationAssignmentConsoleApp.csproj.CoreCompileInputs.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\IterationAssignmentConsoleApp\IterationAssignmentConsoleApp\obj\Debug\IterationAssignmentConsoleApp.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\IterationAssignmentConsoleApp\IterationAssignmentConsoleApp\obj\Debug\IterationAssignmentConsoleApp.pdb

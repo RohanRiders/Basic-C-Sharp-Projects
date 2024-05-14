@@ -8,10 +8,76 @@ namespace IterationAssignmentConsoleApp
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main()
         {
-            //Here is the solution for finding all elements in an array, even duplicates and printing them to the screen. 
-            List<string> groceryList = new List<string>();
+            //Solution Part Six: //reference https://www.tutorialspoint.com/Chash-program-to-print-unique-values-from-a-list
+
+            string[] abcList = { "A", "B", "C", "D", "C", "A" };
+
+            List<string> mylist = new List<string>();
+            List<string> duplicateList = new List<string>();
+
+            foreach (var item in abcList)
+            {
+                if (!mylist.Contains(item))
+                {
+                    mylist.Add(item);
+                }
+                else
+                {
+                    duplicateList.Add(item);
+                }
+            }
+
+            foreach (var item in mylist)
+            {
+                Console.WriteLine("Here is an original list memeber: " + item);
+               
+            }
+
+            foreach (var item in duplicateList)
+            {
+                Console.WriteLine("Here is a duplicate in the list: " + item);
+               
+            }
+
+            Console.ReadLine();
+
+            // List<string> abcList = new List<string>();
+            //abcList.Add("A");
+            //abcList.Add("B");
+            //abcList.Add("C");
+            //abcList.Add("D");
+            //abcList.Add("C");
+            //abcList.Add("A");
+            // Console.WriteLine("Initial List...");
+            // foreach (string item in abcList)
+            // {
+            //     Console.WriteLine("{0}", item);
+            // }
+
+            // List<string> newList = abcList.Distinct().ToList();
+            // Console.WriteLine("Unique elements...");            
+
+            // foreach (string uniqueItem in newList)
+            // {
+            //     Console.WriteLine("{0}", uniqueItem);
+            // }
+
+            // Console.WriteLine("Here are the duplicated values...");
+            //var myDuplicateValues = abcList.GroupBy(x => x)
+            //     .Where(group => group.Count() > 1)
+            //     .Select(group => group.Key)
+            //     .ToList();
+            // Console.WriteLine(myDuplicateValues);
+
+            //Console.ReadLine();
+
+
+
+
+            //Solution Part Five: Here is the solution for finding all elements in an array, even duplicates and printing them to the screen.
+           List<string> groceryList = new List<string>();
             groceryList.Add("Cheese");
             groceryList.Add("Bread");
             groceryList.Add("Milk");
@@ -26,14 +92,24 @@ namespace IterationAssignmentConsoleApp
                    .Where(i => groceryList[i] == userInput)
                    .ToList();
 
-            foreach (var item in result)
+            if (groceryList.Contains(userInput))
             {
-                Console.WriteLine("Grocery Item: " + groceryList[item] + "\n" + "Index of that item: " + item  );
+                foreach (var item in result) // You got your foreach loop to work first before you placed it in an if statement. Just for future troubleshooting scenarios. 
+                {
+                    Console.WriteLine("Grocery Item: " + groceryList[item] + "\n" + "Index of that item: " + item);
+                }
+
             }
+            else
+            {
+                Console.WriteLine("your item is not on the list");
+            }
+
             Console.ReadLine();
 
+            //REFERENCES: https://ravindradevrani.medium.com/multiple-ways-to-find-duplicates-in-c-array-with-pros-and-cons-b570142ce506
 
-            //*************************************************************Everything below was an attempt to find a solution to the challenge above. 
+            //*************************************************************Everything below was an attempt to find a solution to the challenges above. 
             //int[] anArray = { 1, 5, 2, 7, 7, 3 };
 
             //var duplicateList = anArray.GroupBy(x => x)

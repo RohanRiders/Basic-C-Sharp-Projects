@@ -1,0 +1,7 @@
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.exe.config
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ExceptionHandling\ExceptionHandling\bin\Debug\ExceptionHandling.pdb
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.csproj.AssemblyReference.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.csproj.CoreCompileInputs.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ExceptionHandling\ExceptionHandling\obj\Debug\ExceptionHandling.pdb

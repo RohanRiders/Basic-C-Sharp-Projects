@@ -38,7 +38,28 @@ namespace TwentyOne
             //cardOne.Suit = "Hearts";
             //Cards.Add(cardOne);
         }
-        public List<Card> Cards { get; set; }
+        public List<Card> Cards { get; set; } //This is a property which describes the state of a class/object. See below to understand the behavior of the object. 
+
+        public void Shuffle(int times = 1) //The 'times' parameter is an optional parameter with a default value. 
+        {
+        
+            for (int i = 0; i < times; i++) //Initially the code below was by itself in the overloaded method but to teach the principle of optional parameters we stuck it into the for loop 
+            {                               //to save the need of creating another overload method. When in doubt just use overloaded methods and ignore the optional parameters. 
+                
+                List<Card> TempList = new List<Card>();
+                Random random = new Random();
+
+                while (Cards.Count > 0)
+                {
+                    int randomindex = random.Next(0, Cards.Count);
+                    TempList.Add(Cards[randomindex]);
+                   Cards.RemoveAt(randomindex);
+                }
+                Cards = TempList;
+            }
+            // We want to shuffle to make it random. 
+
+        }
 
     }
 }

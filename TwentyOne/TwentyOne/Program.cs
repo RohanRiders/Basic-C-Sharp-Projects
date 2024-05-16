@@ -10,7 +10,11 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-
+            TwentyOneGame game = new TwentyOneGame();
+            game.Players = new List<string>() { "Jesse", "Bill", "Bob" };
+            game.ListPlayers();
+            Console.ReadLine(); 
+            
             Deck deck = new Deck(); //Upon instantiating a new object of object/Class Deck it should have created 52 cards for you. This object has a property "Cards" with data type list that has 52 cards in it. 
             deck.Shuffle(3); //We call this method "Shuffle" on itself "deck". It shuffles all the cards that are existing in the deck. 
             //int timesShuffled = 0; 
@@ -68,5 +72,8 @@ namespace TwentyOne
         //    }
         //    return deck;
         //}
+
+
+        //Game game = new TwentyOneGame(); //This is an example of Polymorphism. TwentyOneGame and morph into it's inheriting class such as the Game class. 
     }
 }

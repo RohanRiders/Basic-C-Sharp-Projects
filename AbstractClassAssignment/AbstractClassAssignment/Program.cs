@@ -10,6 +10,10 @@ namespace AbstractClassAssignment
     {
         static void Main(string[] args)
         {
+            //polymorphism of Interface IQuittable being inherited from the Employee class.
+            IQuittable NewEmployee = new Employee();
+
+            NewEmployee.Quit(); //The Quit() method gets implemented from the IQuittable interface. 
 
             Employee employee = new Employee();
             employee.firstName = "Sample";

@@ -6,11 +6,20 @@ using System.Threading.Tasks;
 
 namespace AbstractClassAssignment
 {
-    class Employee : Person
+    class Employee : Person, IQuittable
     {
+        
+
+        
+        
         public void SayName()
         {
             Console.WriteLine(firstName + " " + lastName);
+        }
+
+        public void Quit()
+        {
+
         }
 
     }

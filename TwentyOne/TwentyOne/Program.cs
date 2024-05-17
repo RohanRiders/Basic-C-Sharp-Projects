@@ -10,10 +10,17 @@ namespace TwentyOne
     {
         static void Main(string[] args)
         {
-            TwentyOneGame game = new TwentyOneGame();
-            game.Players = new List<string>() { "Jesse", "Bill", "Bob" };
-            game.ListPlayers();
-            Console.ReadLine(); 
+            //TwentyOneGame game = new TwentyOneGame();
+            //game.Players = new List<string>() { "Jesse", "Bill", "Bob" };
+            //game.ListPlayers();
+            //Console.ReadLine(); 
+
+            Game game = new TwentyOneGame();
+            game.Players = new List<Player>();
+            Player player = new Player();
+            player.Name = "Jesse";
+            game = game + player; //this is a plus operator < game += player > is a short hand way of writing the exact same thing. 
+            game = game - player; //this is a minus operator < game -= player > is short hand of subtracting. 
             
             Deck deck = new Deck(); //Upon instantiating a new object of object/Class Deck it should have created 52 cards for you. This object has a property "Cards" with data type list that has 52 cards in it. 
             deck.Shuffle(3); //We call this method "Shuffle" on itself "deck". It shuffles all the cards that are existing in the deck. 

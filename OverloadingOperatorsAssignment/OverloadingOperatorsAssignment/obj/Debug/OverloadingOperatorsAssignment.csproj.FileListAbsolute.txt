@@ -1,0 +1,7 @@
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\OverloadingOperatorsAssignment\OverloadingOperatorsAssignment\bin\Debug\OverloadingOperatorsAssignment.exe.config
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\OverloadingOperatorsAssignment\OverloadingOperatorsAssignment\bin\Debug\OverloadingOperatorsAssignment.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\OverloadingOperatorsAssignment\OverloadingOperatorsAssignment\bin\Debug\OverloadingOperatorsAssignment.pdb
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\OverloadingOperatorsAssignment\OverloadingOperatorsAssignment\obj\Debug\OverloadingOperatorsAssignment.csproj.AssemblyReference.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\OverloadingOperatorsAssignment\OverloadingOperatorsAssignment\obj\Debug\OverloadingOperatorsAssignment.csproj.CoreCompileInputs.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\OverloadingOperatorsAssignment\OverloadingOperatorsAssignment\obj\Debug\OverloadingOperatorsAssignment.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\OverloadingOperatorsAssignment\OverloadingOperatorsAssignment\obj\Debug\OverloadingOperatorsAssignment.pdb

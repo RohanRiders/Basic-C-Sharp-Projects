@@ -11,7 +11,7 @@ namespace OverloadingOperatorsAssignment
         public int ID { get; set; }
         
 
-        public static bool operator== (Employee employee, Employee employee1)
+        public static bool operator== (Employee employee, Employee employee1) //overloaded comparison method. ==
         {
             if (employee.ID == employee1.ID)
                 return true;
@@ -19,12 +19,12 @@ namespace OverloadingOperatorsAssignment
                 return false;
         }
 
-        public static bool operator!= (Employee employee, Employee employee1)
+        public static bool operator!= (Employee employee, Employee employee1) //the overloaded method are in pairs so you need to opposit. !=
         {
             if (employee.ID != employee1.ID)
-                return true;
-            else
                 return false;
+            else
+                return true;
         }
     }
 }

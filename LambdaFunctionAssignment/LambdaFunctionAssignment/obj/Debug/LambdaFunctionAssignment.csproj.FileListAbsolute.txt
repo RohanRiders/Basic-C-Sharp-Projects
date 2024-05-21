@@ -1,0 +1,7 @@
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\LambdaFunctionAssignment\LambdaFunctionAssignment\bin\Debug\LambdaFunctionAssignment.exe.config
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\LambdaFunctionAssignment\LambdaFunctionAssignment\bin\Debug\LambdaFunctionAssignment.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\LambdaFunctionAssignment\LambdaFunctionAssignment\bin\Debug\LambdaFunctionAssignment.pdb
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\LambdaFunctionAssignment\LambdaFunctionAssignment\obj\Debug\LambdaFunctionAssignment.csproj.AssemblyReference.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\LambdaFunctionAssignment\LambdaFunctionAssignment\obj\Debug\LambdaFunctionAssignment.csproj.CoreCompileInputs.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\LambdaFunctionAssignment\LambdaFunctionAssignment\obj\Debug\LambdaFunctionAssignment.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\LambdaFunctionAssignment\LambdaFunctionAssignment\obj\Debug\LambdaFunctionAssignment.pdb

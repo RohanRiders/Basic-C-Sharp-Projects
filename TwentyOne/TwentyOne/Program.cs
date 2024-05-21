@@ -23,8 +23,11 @@ namespace TwentyOne
             //game = game - player; //this is a minus operator < game -= player > is short hand of subtracting. 
             Card card = new Card();
             card.Suit = Suit.Clubs;//enum example
-            int underlyingValue = Convert.ToInt32(Suit.Diamonds); //its interesting that you're casting a string to an int. Suit.Diamond holds a value of 1 because the underlying data type is int. 
-            Deck deck = new Deck(); //Upon instantiating a new object of object/Class Deck it should have created 52 cards for you. This object has a property "Cards" with data type list that has 52 cards in it. 
+            int underlyingValue = Convert.ToInt32(Suit.Diamonds); //its interesting that you're casting a string to an int. Suit.Diamond holds a value of 1 because the underlying data type is int.
+                                                                  //English Translation: take the number of cards and find each item where the face of each item equals an Ace. 
+                                                                  // Int count = deck.Cards.Count(x => x.Face == Face.Ace);  This is an example of a Lambda function. 
+                                                                  //List<Card> newList = deck.Cards.Where(x => x.Face == Face.King).ToList(); This is taking the list of cards and find out WHERE the face equals King and add to new list.
+                        Deck deck = new Deck(); //Upon instantiating a new object of object/Class Deck it should have created 52 cards for you. This object has a property "Cards" with data type list that has 52 cards in it. 
             deck.Shuffle(3); //We call this method "Shuffle" on itself "deck". It shuffles all the cards that are existing in the deck. 
                              //int timesShuffled = 0; 
                              //deck = Shuffle(deck: deck, out timesShuffled, times: 3); ; //This looks weird but we are taking in the variable deck, shuffling it, and reasigning it back to the veriable 'deck'. "deck:" and "times:" is for readability only. 

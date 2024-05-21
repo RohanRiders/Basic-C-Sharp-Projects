@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace TwentyOne
 {
-    public class Card
+    public struct Card //This is going to be a struct because it is a solid candidate as a struct. Its not inheriting anything and the values don't want to be changed. 
     {
         
         public Suit Suit { get; set; }

@@ -15,13 +15,15 @@ namespace TwentyOne
             //game.ListPlayers();
             //Console.ReadLine(); 
 
-            Game game = new TwentyOneGame();
-            game.Players = new List<Player>();
-            Player player = new Player();
-            player.Name = "Jesse";
-            game = game + player; //this is a plus operator < game += player > is a short hand way of writing the exact same thing. 
-            game = game - player; //this is a minus operator < game -= player > is short hand of subtracting. 
-            
+            //Game game = new TwentyOneGame();
+            //game.Players = new List<Player>();
+            //Player player = new Player();
+            //player.Name = "Jesse";
+            //game = game + player; //this is a plus operator < game += player > is a short hand way of writing the exact same thing. 
+            //game = game - player; //this is a minus operator < game -= player > is short hand of subtracting. 
+            Card card = new Card();
+            card.Suit = Suit.Clubs;//enum example
+            int underlyingValue = Convert.ToInt32(Suit.Diamonds); //its interesting that you're casting a string to an int. Suit.Diamond holds a value of 1 because the underlying data type is int. 
             Deck deck = new Deck(); //Upon instantiating a new object of object/Class Deck it should have created 52 cards for you. This object has a property "Cards" with data type list that has 52 cards in it. 
             deck.Shuffle(3); //We call this method "Shuffle" on itself "deck". It shuffles all the cards that are existing in the deck. 
             //int timesShuffled = 0; 

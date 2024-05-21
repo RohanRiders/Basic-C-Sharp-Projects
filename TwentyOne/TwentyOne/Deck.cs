@@ -13,23 +13,35 @@ namespace TwentyOne
 
             //What we know is each deck has 52 cards, 13 faces with 4 suites. So for each face (13) we need to loop through it 4 times. 
             Cards = new List<Card>(); //An empty list of cards
-            List<string> Suits = new List<string>() { "Clubs", "Hearts", "Diamonds", "Spades" }; 
-            List<string> Faces = new List<string>()
-            {
-                "Two", "Three", "Four", "Five", "Six", "Seven",
-                "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"
-            };
 
-            foreach (string face in Faces) //Every iteration of faces it will loop through all the suits for that face. 
+            for (int i = 0; i < 13; i++) //iterate through the 13 face cards
             {
-                foreach (string suit in Suits) //During each loop we create a card and assign the values of suit and face to that card. 
+                for (int j = 0; j < 4; j++) //iterate through each suit of each face card. 
                 {
-                    Card card = new Card();// This only exists with each loop 
-                    card.Suit = suit;
-                    card.Face = face;
-                    Cards.Add(card);
+                    Card card = new Card();
+                    card.Face = (Face)i; //This is an example of casting but the other way around. 
+                    card.Suit = (Suit)j; //This is another example of casting. 
+                    Cards.Add(card); //Add the card to the card list.
                 }
             }
+
+            //List<string> Suits = new List<string>() { "Clubs", "Hearts", "Diamonds", "Spades" }; 
+            //List<string> Faces = new List<string>()
+            //{
+            //    "Two", "Three", "Four", "Five", "Six", "Seven",
+            //    "Eight", "Nine", "Ten", "Jack", "Queen", "King", "Ace"
+            //};
+
+            //foreach (string face in Faces) //Every iteration of faces it will loop through all the suits for that face. 
+            //{
+            //    foreach (string suit in Suits) //During each loop we create a card and assign the values of suit and face to that card. 
+            //    {
+            //        Card card = new Card();// This only exists with each loop 
+            //        card.Suit = suit;
+            //        card.Face = face;
+            //        Cards.Add(card);
+            //    }
+            //}
 
 
             //Cards = new List<Card>();

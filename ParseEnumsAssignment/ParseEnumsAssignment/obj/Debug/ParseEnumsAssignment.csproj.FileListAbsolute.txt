@@ -1,0 +1,7 @@
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ParseEnumsAssignment\ParseEnumsAssignment\bin\Debug\ParseEnumsAssignment.exe.config
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ParseEnumsAssignment\ParseEnumsAssignment\bin\Debug\ParseEnumsAssignment.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ParseEnumsAssignment\ParseEnumsAssignment\bin\Debug\ParseEnumsAssignment.pdb
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ParseEnumsAssignment\ParseEnumsAssignment\obj\Debug\ParseEnumsAssignment.csproj.AssemblyReference.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ParseEnumsAssignment\ParseEnumsAssignment\obj\Debug\ParseEnumsAssignment.csproj.CoreCompileInputs.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ParseEnumsAssignment\ParseEnumsAssignment\obj\Debug\ParseEnumsAssignment.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\ParseEnumsAssignment\ParseEnumsAssignment\obj\Debug\ParseEnumsAssignment.pdb

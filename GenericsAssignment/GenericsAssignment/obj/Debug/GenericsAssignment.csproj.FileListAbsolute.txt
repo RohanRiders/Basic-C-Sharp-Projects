@@ -1,0 +1,7 @@
+C:\Users\trason.carver\source\repos\GenericsAssignment\GenericsAssignment\bin\Debug\GenericsAssignment.exe.config
+C:\Users\trason.carver\source\repos\GenericsAssignment\GenericsAssignment\bin\Debug\GenericsAssignment.exe
+C:\Users\trason.carver\source\repos\GenericsAssignment\GenericsAssignment\bin\Debug\GenericsAssignment.pdb
+C:\Users\trason.carver\source\repos\GenericsAssignment\GenericsAssignment\obj\Debug\GenericsAssignment.csproj.AssemblyReference.cache
+C:\Users\trason.carver\source\repos\GenericsAssignment\GenericsAssignment\obj\Debug\GenericsAssignment.csproj.CoreCompileInputs.cache
+C:\Users\trason.carver\source\repos\GenericsAssignment\GenericsAssignment\obj\Debug\GenericsAssignment.exe
+C:\Users\trason.carver\source\repos\GenericsAssignment\GenericsAssignment\obj\Debug\GenericsAssignment.pdb

@@ -13,7 +13,14 @@ namespace LambdaFunctionAssignment
             List<string> VIPList = new List<string>();
             Employee employee = new Employee();
 
-            List<Employee> employeeID = employee.ID.Where(x => ????????????? > 5).ToList();
+            List<int> employeeIDs = employee.ID.Where(x => x > 5).ToList();
+            foreach (int employeeID in employeeIDs)
+            {
+                Console.WriteLine( "Here is the result of the lambda function " + employeeID);
+            }
+
+
+
 
             foreach (string person in employee.Employees)
             {
@@ -32,6 +39,8 @@ namespace LambdaFunctionAssignment
             {
                 Console.WriteLine("Here are the members of the VIP list: " + VIPList[i]);
             }
+
+    
             Console.ReadLine();
             
         }

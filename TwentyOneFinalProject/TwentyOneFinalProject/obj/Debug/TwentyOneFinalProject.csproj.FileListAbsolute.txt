@@ -1,0 +1,7 @@
+C:\Users\trason.carver\source\repos\TwentyOneFinalProject\TwentyOneFinalProject\obj\Debug\TwentyOneFinalProject.csproj.AssemblyReference.cache
+C:\Users\trason.carver\source\repos\TwentyOneFinalProject\TwentyOneFinalProject\obj\Debug\TwentyOneFinalProject.csproj.CoreCompileInputs.cache
+C:\Users\trason.carver\source\repos\TwentyOneFinalProject\TwentyOneFinalProject\bin\Debug\TwentyOneFinalProject.exe.config
+C:\Users\trason.carver\source\repos\TwentyOneFinalProject\TwentyOneFinalProject\bin\Debug\TwentyOneFinalProject.exe
+C:\Users\trason.carver\source\repos\TwentyOneFinalProject\TwentyOneFinalProject\bin\Debug\TwentyOneFinalProject.pdb
+C:\Users\trason.carver\source\repos\TwentyOneFinalProject\TwentyOneFinalProject\obj\Debug\TwentyOneFinalProject.exe
+C:\Users\trason.carver\source\repos\TwentyOneFinalProject\TwentyOneFinalProject\obj\Debug\TwentyOneFinalProject.pdb

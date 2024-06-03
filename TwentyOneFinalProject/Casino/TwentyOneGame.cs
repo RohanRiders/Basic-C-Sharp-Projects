@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Casino.Interfaces;
 
-namespace TwentyOneFinalProject
+namespace Casino.TwentyOneFinalProject
 {
-    class TwentyOneGame : Game
+    public class TwentyOneGame : Game
     {
         
         public TwentyOneDealer Dealer { get; set; } //The Game class will always have a dealer but in this specific instance it will need a Dealer that has characteristics of a Twenty One game Dealer. 

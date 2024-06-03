@@ -4,6 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.IO; //this will allow you to work with ingesting files. 
+using Casino;
+using Casino.TwentyOneFinalProject;
+
 
 namespace TwentyOneFinalProject
 {

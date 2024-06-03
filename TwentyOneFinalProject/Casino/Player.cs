@@ -4,10 +4,13 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace TwentyOneFinalProject
+namespace Casino
 {
     public class Player
     {
+        public Player(string name) : this(name, 100) //This is an example of constructor cultching or overloading. You are inheriting the parameters from an earlier constructor.
+        {
+        }
         public Player(string name, int beginningBalance) //This is the constructor which is the default method definition crated when this object is initialized. 
         {
             Hand = new List<Card>();

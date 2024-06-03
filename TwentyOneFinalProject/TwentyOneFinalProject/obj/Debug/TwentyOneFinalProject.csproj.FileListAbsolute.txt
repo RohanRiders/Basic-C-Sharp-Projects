@@ -5,3 +5,13 @@ C:\Users\trason.carver\source\repos\TwentyOneFinalProject\TwentyOneFinalProject\
 C:\Users\trason.carver\source\repos\TwentyOneFinalProject\TwentyOneFinalProject\bin\Debug\TwentyOneFinalProject.pdb
 C:\Users\trason.carver\source\repos\TwentyOneFinalProject\TwentyOneFinalProject\obj\Debug\TwentyOneFinalProject.exe
 C:\Users\trason.carver\source\repos\TwentyOneFinalProject\TwentyOneFinalProject\obj\Debug\TwentyOneFinalProject.pdb
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\TwentyOneFinalProject\TwentyOneFinalProject\obj\Debug\TwentyOneFinalProject.csproj.AssemblyReference.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\TwentyOneFinalProject\TwentyOneFinalProject\obj\Debug\TwentyOneFinalProject.csproj.CoreCompileInputs.cache
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\TwentyOneFinalProject\TwentyOneFinalProject\obj\Debug\TwentyOneFinalProject.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\TwentyOneFinalProject\TwentyOneFinalProject\obj\Debug\TwentyOneFinalProject.pdb
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\TwentyOneFinalProject\TwentyOneFinalProject\bin\Debug\TwentyOneFinalProject.exe.config
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\TwentyOneFinalProject\TwentyOneFinalProject\bin\Debug\TwentyOneFinalProject.exe
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\TwentyOneFinalProject\TwentyOneFinalProject\bin\Debug\TwentyOneFinalProject.pdb
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\TwentyOneFinalProject\TwentyOneFinalProject\bin\Debug\Casino.dll
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\TwentyOneFinalProject\TwentyOneFinalProject\bin\Debug\Casino.pdb
+C:\Users\trason.carver\Documents\Basic-C-Sharp-Projects\TwentyOneFinalProject\TwentyOneFinalProject\obj\Debug\TwentyOneFinalProject.csproj.CopyComplete

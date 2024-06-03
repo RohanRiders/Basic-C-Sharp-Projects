@@ -24,11 +24,21 @@ namespace Casino.TwentyOneFinalProject
             Dealer.Stay = false;
             Dealer.Deck = new Deck(); // if we didn't make a new deck each time we'd have a partcial deck each time. Each round would have influence on one another.  
             Dealer.Deck.Shuffle();
-            Console.WriteLine("Place your bet!");
 
             foreach (Player player in Players)
             {
-                int bet = Convert.ToInt32(Console.ReadLine()); //recording the amount the player bets
+                bool validAnswer = false;
+                int bet = 0;
+                while (!validAnswer)
+                {
+                    Console.WriteLine("Please place your bet!");
+                    validAnswer = int.TryParse(Console.ReadLine(), out bet);
+                    if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals.");
+                }
+                if (bet < 0)
+                {
+                    throw new FruadException();
+                }
                 bool successfullyBet = player.Bet(bet); //We are taking what was bet and passing it into the bet method. 
                 if (!successfullyBet) //This is equivelent to successfullyBet == false
                 {

@@ -20,11 +20,21 @@ namespace TwentyOneFinalProject
             //var newDictionary = new Dictionary<string, string>();// this is an implicit way of adding variable types. In some cases you don't need to explicitly declare the data type. 
             //var newPlayer = new Player("Trason"); //Here you are using overloaded constrcutors. Notice the default value 100 is set for the player Remember to rebuild the project its referencing to bring in any changes. 
 
+           
+
             //Here is the entry point to the program. 
             Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me  your name");
             string playerName = Console.ReadLine(); //They will then tell us their name. 
-            Console.WriteLine("And how much money did you bring today?");
-            int bank = Convert.ToInt32(Console.ReadLine()); //You'd take the response in money and convert to int. 
+
+            bool validAnswer = false;
+            int bank = 0;
+            while (!validAnswer)
+            {
+                Console.WriteLine("And how much money did you bring today?");
+                validAnswer = int.TryParse(Console.ReadLine(), out bank);
+                if (!validAnswer) Console.WriteLine("Please enter digits only, no decimals.");
+            }
+
             Console.WriteLine("Hello, {0}. would you like to join a game of 21 right now?", playerName); //String entropolation: playerName will be placed in the {0} variable.
             string answer = Console.ReadLine().ToLower(); //Changing it to lower makes it easier for the computer to do an if statement on the response. 
             if (answer == "yes" || answer =="yeah" || answer == "y" || answer == "ya") //You don't need an Else in the instance because if they say 'no' it will skip this and run the last two lines. 
@@ -41,7 +51,23 @@ namespace TwentyOneFinalProject
                 player.isActivelyPlaying = true; //We set this in order to set up a While Loop for us below. While the player playing is true continue the loop. 
                 while (player.isActivelyPlaying && player.Balance > 0) //While these two conditions are true run the Play() method. 
                 {
-                    game.Play(); //This method is defined in the game class object, you are simply calling it here. 
+                    try
+                    {
+                        game.Play(); //This method is defined in the game class object, you are simply calling it here. 
+                    }
+                    catch (FruadException)
+                    {
+                        Console.WriteLine("Security! Kick this person out.");
+                        Console.ReadLine();
+                        return;
+                    }
+                    catch (Exception)
+                    {
+                        Console.WriteLine("An error occured. Please contact your System Administrator");
+                        Console.ReadLine();
+                        return;
+                    }
+                    
                 }
                 game -= player; //remove the player from the game. 
                 Console.WriteLine("Thank you for playing!");

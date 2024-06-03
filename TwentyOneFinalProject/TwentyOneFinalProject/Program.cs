@@ -14,8 +14,11 @@ namespace TwentyOneFinalProject
     {
         static void Main(string[] args)
         {
-
-            Player newPlayer = new Player("Trason"); //Here you are using overloaded constrcutors. Notice the default value 100 is set for the player Remember to rebuild the project its referencing to bring in any changes. 
+            //const string casinoName = "Grand Casino Hotel!";
+            //Guid identifier = Guid.NewGuid(); //Here is a way of using a guid
+            //Console.WriteLine("Welcome to the {0}. Let's start by telling me your name.");
+            //var newDictionary = new Dictionary<string, string>();// this is an implicit way of adding variable types. In some cases you don't need to explicitly declare the data type. 
+            //var newPlayer = new Player("Trason"); //Here you are using overloaded constrcutors. Notice the default value 100 is set for the player Remember to rebuild the project its referencing to bring in any changes. 
 
             //Here is the entry point to the program. 
             Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me  your name");
@@ -27,6 +30,12 @@ namespace TwentyOneFinalProject
             if (answer == "yes" || answer =="yeah" || answer == "y" || answer == "ya") //You don't need an Else in the instance because if they say 'no' it will skip this and run the last two lines. 
             {
                 Player player = new Player(playerName, bank); //We immediately created a player object and were able to pass in the player's name and the money they plan to play with. 
+                player.Id = Guid.NewGuid();
+                using (StreamWriter file = new StreamWriter(@"C:\Users\trason.carver\Documents\Logs\log.txt", true))
+                {
+                    file.WriteLine(player.Id); //Here is an example of posting a user GUID to a log file. 
+                }             
+                
                 Game game = new TwentyOneGame(); //polymorphism is displayed here because we are creating TwentyOneGame but it is exposing the Game object properties and methods. 
                 game += player; //This exposes those overloaded operators we made in the Player class. We are adding the player to the game. 
                 player.isActivelyPlaying = true; //We set this in order to set up a While Loop for us below. While the player playing is true continue the loop. 

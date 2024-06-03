@@ -22,6 +22,7 @@ namespace Casino
             //The "using" helps manage the clean up of memory when you are done with it. Garbage collection. 
             using (StreamWriter file = new StreamWriter(@"C:\Users\trason.carver\Documents\Logs\log.text", true)) //This allows you to log whatever you'd like, in this case we are logging "card". 
             {
+                file.WriteLine(DateTime.Now);
                 file.WriteLine(card);
             } //This closing brace is when clean up occurs.
             Deck.Cards.RemoveAt(0);

@@ -14,6 +14,9 @@ namespace TwentyOneFinalProject
     {
         static void Main(string[] args)
         {
+
+            Player newPlayer = new Player("Trason"); //Here you are using overloaded constrcutors. Notice the default value 100 is set for the player Remember to rebuild the project its referencing to bring in any changes. 
+
             //Here is the entry point to the program. 
             Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me  your name");
             string playerName = Console.ReadLine(); //They will then tell us their name. 

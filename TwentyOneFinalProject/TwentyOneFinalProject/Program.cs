@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 using System.IO; //this will allow you to work with ingesting files. 
 using Casino;
 using Casino.TwentyOneFinalProject;
-
+using System.Data.SqlClient;
+using System.Data;
 
 namespace TwentyOneFinalProject
 {
@@ -25,6 +26,21 @@ namespace TwentyOneFinalProject
             //Here is the entry point to the program. 
             Console.WriteLine("Welcome to the Grand Hotel and Casino. Let's start by telling me  your name");
             string playerName = Console.ReadLine(); //They will then tell us their name. 
+
+            if (playerName.ToLower() == "admin")
+            {
+                List<ExceptionEntity> Exceptions = ReadExceptions();
+                foreach (var exception in Exceptions)
+                {
+                    Console.Write(exception.Id + " | ");
+                    Console.Write(exception.ExceptionType + " | ");
+                    Console.Write(exception.ExceptionMessage + " | ");
+                    Console.Write(exception.TimeStamp + " | ");
+                    Console.WriteLine();
+                }
+                Console.Read();
+                return;
+            }
 
             bool validAnswer = false;
             int bank = 0;
@@ -55,15 +71,17 @@ namespace TwentyOneFinalProject
                     {
                         game.Play(); //This method is defined in the game class object, you are simply calling it here. 
                     }
-                    catch (FruadException)
+                    catch (FruadException ex)
                     {
-                        Console.WriteLine("Security! Kick this person out.");
+                        Console.WriteLine(ex.Message);
+                        UpdateDbWithException(ex);
                         Console.ReadLine();
                         return;
                     }
-                    catch (Exception)
+                    catch (Exception ex)
                     {
                         Console.WriteLine("An error occured. Please contact your System Administrator");
+                        UpdateDbWithException(ex);
                         Console.ReadLine();
                         return;
                     }
@@ -74,6 +92,70 @@ namespace TwentyOneFinalProject
             }
             Console.WriteLine("Feel free to look around the casino. Bye for now."); 
             Console.ReadLine(); 
+        }
+
+        private static void UpdateDbWithException(Exception ex) //You don't enter values for the coloumn headers because they will come in as varibles when the exception is triggered.
+        {
+            string connectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=TwentyOneFinalProject;
+                                        Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;
+                                        ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+
+            string queryString = @"INSERT INTO EXCEPTIONS (ExceptionType, ExceptionMessage, TimeStamp) VALUES
+                                    (@ExceptionType, @ExceptionMessage, @TimeStamp"; //Paramartized Queries are what you need to prevent SQL injection.
+                                                                                     //ADO.NET will help map parameters to these values, they will be substituted. 
+
+            using (SqlConnection connection = new SqlConnection(connectionString))  //This is a special using statement that manages outside resource memory (i.e., Database, File Explorer, etc.)
+            {
+                SqlCommand command = new SqlCommand(queryString, connection);          
+                //First we need to add the datatyype to the sql table. By specifying the datatype you are protecting against SqL Injection.
+                command.Parameters.Add("@ExceptionType", SqlDbType.VarChar);
+                command.Parameters.Add("@ExceptionMessage", SqlDbType.VarChar);
+                command.Parameters.Add("@TimeStamp", SqlDbType.DateTime);
+
+                //Here are the values we will be adding to the Database table. 
+                command.Parameters["@ExceptionType"].Value = ex.GetType().ToString(); //Here you are grabbing the data type. 
+                command.Parameters["@ExceptionMessage"].Value = ex.Message; //This is the message of the exception that is a string. 
+                command.Parameters["@TimeStamp"].Value = DateTime.Now;
+
+                connection.Open(); //Here is where we open the connection.
+                command.ExecuteNonQuery(); //Here is where we execute the command. 
+                connection.Close(); //Here is where we close the connection. 
+
+            }   
+            
+        }
+
+        //reading data objects from the db and converting into C#
+        private static List<ExceptionEntity> ReadExceptions() 
+        {
+            string connectionString = @"Data Source=(localdb)\ProjectsV13;Initial Catalog=TwentyOneFinalProject;
+                                        Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;
+                                        ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
+
+            string queryString = @"Select Id, ExceptionType, ExceptionMessage, TimeStamp From Exceptions";
+
+            List<ExceptionEntity> Exceptions = new List<ExceptionEntity>();
+
+            using (SqlConnection connection = new SqlConnection(connectionString))
+            {
+                SqlCommand command = new SqlCommand(queryString, connection);
+
+                connection.Open();
+
+                SqlDataReader reader = command.ExecuteReader();
+
+                while (reader.Read())
+                {
+                    ExceptionEntity exception = new ExceptionEntity();
+                    exception.Id = Convert.ToInt32(reader["Id"]);
+                    exception.ExceptionType = reader["ExceptionType"].ToString();
+                    exception.ExceptionMessage = reader["ExceptionMessage"].ToString();
+                    exception.TimeStamp = Convert.ToDateTime(reader["TimeStamp"]);
+                    Exceptions.Add(exception);
+                }
+                connection.Close();
+            }
+            return Exceptions; //We are returning a list of exception entities.
         }
     }
 }

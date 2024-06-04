@@ -37,7 +37,7 @@ namespace Casino.TwentyOneFinalProject
                 }
                 if (bet < 0)
                 {
-                    throw new FruadException();
+                    throw new FruadException("Security! Kick this person out.");
                 }
                 bool successfullyBet = player.Bet(bet); //We are taking what was bet and passing it into the bet method. 
                 if (!successfullyBet) //This is equivelent to successfullyBet == false

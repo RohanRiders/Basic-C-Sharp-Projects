@@ -108,15 +108,16 @@ namespace TwentyOneFinalProject
             {
                 SqlCommand command = new SqlCommand(queryString, connection);          
                 //First we need to add the datatyype to the sql table. By specifying the datatype you are protecting against SqL Injection.
-                command.Parameters.Add("@ExceptionType", SqlDbType.VarChar);
-                command.Parameters.Add("@ExceptionMessage", SqlDbType.VarChar);
-                command.Parameters.Add("@TimeStamp", SqlDbType.DateTime);
+                command.Parameters.Add("@ExceptionType", SqlDbType.VarChar); //This is the data type inside the database. 
+                command.Parameters.Add("@ExceptionMessage", SqlDbType.VarChar);// " "
+                command.Parameters.Add("@TimeStamp", SqlDbType.DateTime); // " "
 
                 //Here are the values we will be adding to the Database table. 
-                command.Parameters["@ExceptionType"].Value = ex.GetType().ToString(); //Here you are grabbing the data type. 
+                command.Parameters["@ExceptionType"].Value = ex.GetType().ToString(); //Here you are grabbing the data type with GetType. 
                 command.Parameters["@ExceptionMessage"].Value = ex.Message; //This is the message of the exception that is a string. 
                 command.Parameters["@TimeStamp"].Value = DateTime.Now;
 
+                //This is how you send the data to the database.
                 connection.Open(); //Here is where we open the connection.
                 command.ExecuteNonQuery(); //Here is where we execute the command. 
                 connection.Close(); //Here is where we close the connection. 
@@ -146,6 +147,7 @@ namespace TwentyOneFinalProject
 
                 while (reader.Read())
                 {
+                    //Convert the returned data from the database into C#
                     ExceptionEntity exception = new ExceptionEntity();
                     exception.Id = Convert.ToInt32(reader["Id"]);
                     exception.ExceptionType = reader["ExceptionType"].ToString();

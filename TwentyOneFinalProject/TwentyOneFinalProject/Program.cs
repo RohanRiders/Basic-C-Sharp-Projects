@@ -101,7 +101,7 @@ namespace TwentyOneFinalProject
                                         ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
             string queryString = @"INSERT INTO EXCEPTIONS (ExceptionType, ExceptionMessage, TimeStamp) VALUES
-                                    (@ExceptionType, @ExceptionMessage, @TimeStamp"; //Paramartized Queries are what you need to prevent SQL injection.
+                                    (@ExceptionType, @ExceptionMessage, @TimeStamp)"; //Paramartized Queries are what you need to prevent SQL injection.
                                                                                      //ADO.NET will help map parameters to these values, they will be substituted. 
 
             using (SqlConnection connection = new SqlConnection(connectionString))  //This is a special using statement that manages outside resource memory (i.e., Database, File Explorer, etc.)
